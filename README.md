@@ -1,6 +1,8 @@
+This is a webscraping program extract text from the website.
+
 # Installation process
 
-1. Install python3 of any version (3.2, 3.3, 3.8,  3.10, 3.11)
+1.Install python3 of any version (3.2, 3.3, 3.8, 3.10, 3.11)
 
 sudo apt update
 
@@ -32,6 +34,6 @@ source env/bin/activate
 
 pip install -r requirements.txt
 
-# Run the project
+8. Run the project
 
 python website.py
