@@ -18,7 +18,7 @@ This is a webscraping program extract text from the website.
 
 4. Run the code below to Clone the repository to local machine
 
-### 'git clone https://github.com/denishjackson1/webscraping.git'
+##### 'git clone https://github.com/denishjackson1/webscraping.git'
 
 5. Switch to website branch
 
@@ -36,4 +36,4 @@ This is a webscraping program extract text from the website.
 
 8. Run the project
 
-## 'python website.py'
+#### python website.py
