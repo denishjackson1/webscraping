@@ -28,20 +28,3 @@ for company in companies:
     search_results = google_search(company)
     twitter_url = find_twitter_url(company, search_results)    
     print(f"{company}: {twitter_url}")
-
-# def scrape_email(url):
-#     response = requests.get()
-#     soup = BeautifulSoup(response.text, "html.parser")
-#     email_pattern = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}")
-#     emails = re.findall(email_pattern, soup.text)
-#     with open("emails.txt", "a") as f:
-#         for email in emails:
-#             f.write(f"{email}\n")
-
-def scrape_emails(url, companies):
-    response = requests.get(companies)
-    soup = BeautifulSoup(response.text, "html.parser")
-    
-    # Use a regular expression to find all email addresses in the website
-    emails = re.findall(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}", soup.text)
-    print(emails)
