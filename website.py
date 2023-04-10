@@ -18,5 +18,3 @@ for t in title:
 body = soup.find_all('center')
 for c in body:
     print(c.get_text())
-
-print("Hello World")
